@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8B4AAE319206F8F008C8867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE219206F8F008C8867 /* Foundation.framework */; };
+		D8B4AAE519206F8F008C8867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE419206F8F008C8867 /* CoreGraphics.framework */; };
+		D8B4AAE719206F8F008C8867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE619206F8F008C8867 /* UIKit.framework */; };
+		D8B4AAED19206F8F008C8867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8B4AAEB19206F8F008C8867 /* InfoPlist.strings */; };
+		D8B4AAEF19206F8F008C8867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4AAEE19206F8F008C8867 /* main.m */; };
+		D8B4AAF319206F8F008C8867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4AAF219206F8F008C8867 /* AppDelegate.m */; };
+		D8B4AAF619206F8F008C8867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B4AAF419206F8F008C8867 /* Main.storyboard */; };
+		D8B4AAF919206F8F008C8867 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4AAF819206F8F008C8867 /* ViewController.m */; };
+		D8B4AAFB19206F8F008C8867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B4AAFA19206F8F008C8867 /* Images.xcassets */; };
+		D8B4AB0219206F8F008C8867 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AB0119206F8F008C8867 /* XCTest.framework */; };
+		D8B4AB0319206F8F008C8867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE219206F8F008C8867 /* Foundation.framework */; };
+		D8B4AB0419206F8F008C8867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE619206F8F008C8867 /* UIKit.framework */; };
+		D8B4AB0C19206F8F008C8867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8B4AB0A19206F8F008C8867 /* InfoPlist.strings */; };
+		D8B4AB0E19206F8F008C8867 /* FunnyTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4AB0D19206F8F008C8867 /* FunnyTextFieldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8B4AB0519206F8F008C8867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B4AAD719206F8F008C8867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B4AADE19206F8F008C8867;
+			remoteInfo = FunnyTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8B4AADF19206F8F008C8867 /* FunnyTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B4AAE219206F8F008C8867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8B4AAE419206F8F008C8867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8B4AAE619206F8F008C8867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8B4AAEA19206F8F008C8867 /* FunnyTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunnyTextField-Info.plist"; sourceTree = "<group>"; };
+		D8B4AAEC19206F8F008C8867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8B4AAEE19206F8F008C8867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8B4AAF019206F8F008C8867 /* FunnyTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunnyTextField-Prefix.pch"; sourceTree = "<group>"; };
+		D8B4AAF119206F8F008C8867 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8B4AAF219206F8F008C8867 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8B4AAF519206F8F008C8867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8B4AAF719206F8F008C8867 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8B4AAF819206F8F008C8867 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8B4AAFA19206F8F008C8867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8B4AB0019206F8F008C8867 /* FunnyTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnyTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B4AB0119206F8F008C8867 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8B4AB0919206F8F008C8867 /* FunnyTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunnyTextFieldTests-Info.plist"; sourceTree = "<group>"; };
+		D8B4AB0B19206F8F008C8867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8B4AB0D19206F8F008C8867 /* FunnyTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunnyTextFieldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B4AADC19206F8F008C8867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B4AAE519206F8F008C8867 /* CoreGraphics.framework in Frameworks */,
+				D8B4AAE719206F8F008C8867 /* UIKit.framework in Frameworks */,
+				D8B4AAE319206F8F008C8867 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B4AAFD19206F8F008C8867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B4AB0219206F8F008C8867 /* XCTest.framework in Frameworks */,
+				D8B4AB0419206F8F008C8867 /* UIKit.framework in Frameworks */,
+				D8B4AB0319206F8F008C8867 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8B4AAD619206F8F008C8867 = {
+			isa = PBXGroup;
+			children = (
+				D8B4AAE819206F8F008C8867 /* FunnyTextField */,
+				D8B4AB0719206F8F008C8867 /* FunnyTextFieldTests */,
+				D8B4AAE119206F8F008C8867 /* Frameworks */,
+				D8B4AAE019206F8F008C8867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B4AAE019206F8F008C8867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4AADF19206F8F008C8867 /* FunnyTextField.app */,
+				D8B4AB0019206F8F008C8867 /* FunnyTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B4AAE119206F8F008C8867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4AAE219206F8F008C8867 /* Foundation.framework */,
+				D8B4AAE419206F8F008C8867 /* CoreGraphics.framework */,
+				D8B4AAE619206F8F008C8867 /* UIKit.framework */,
+				D8B4AB0119206F8F008C8867 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B4AAE819206F8F008C8867 /* FunnyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4AAF119206F8F008C8867 /* AppDelegate.h */,
+				D8B4AAF219206F8F008C8867 /* AppDelegate.m */,
+				D8B4AAF419206F8F008C8867 /* Main.storyboard */,
+				D8B4AAF719206F8F008C8867 /* ViewController.h */,
+				D8B4AAF819206F8F008C8867 /* ViewController.m */,
+				D8B4AAFA19206F8F008C8867 /* Images.xcassets */,
+				D8B4AAE919206F8F008C8867 /* Supporting Files */,
+			);
+			path = FunnyTextField;
+			sourceTree = "<group>";
+		};
+		D8B4AAE919206F8F008C8867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4AAEA19206F8F008C8867 /* FunnyTextField-Info.plist */,
+				D8B4AAEB19206F8F008C8867 /* InfoPlist.strings */,
+				D8B4AAEE19206F8F008C8867 /* main.m */,
+				D8B4AAF019206F8F008C8867 /* FunnyTextField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8B4AB0719206F8F008C8867 /* FunnyTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4AB0D19206F8F008C8867 /* FunnyTextFieldTests.m */,
+				D8B4AB0819206F8F008C8867 /* Supporting Files */,
+			);
+			path = FunnyTextFieldTests;
+			sourceTree = "<group>";
+		};
+		D8B4AB0819206F8F008C8867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8B4AB0919206F8F008C8867 /* FunnyTextFieldTests-Info.plist */,
+				D8B4AB0A19206F8F008C8867 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B4AADE19206F8F008C8867 /* FunnyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B4AB1119206F8F008C8867 /* Build configuration list for PBXNativeTarget "FunnyTextField" */;
+			buildPhases = (
+				D8B4AADB19206F8F008C8867 /* Sources */,
+				D8B4AADC19206F8F008C8867 /* Frameworks */,
+				D8B4AADD19206F8F008C8867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunnyTextField;
+			productName = FunnyTextField;
+			productReference = D8B4AADF19206F8F008C8867 /* FunnyTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8B4AAFF19206F8F008C8867 /* FunnyTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B4AB1419206F8F008C8867 /* Build configuration list for PBXNativeTarget "FunnyTextFieldTests" */;
+			buildPhases = (
+				D8B4AAFC19206F8F008C8867 /* Sources */,
+				D8B4AAFD19206F8F008C8867 /* Frameworks */,
+				D8B4AAFE19206F8F008C8867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B4AB0619206F8F008C8867 /* PBXTargetDependency */,
+			);
+			name = FunnyTextFieldTests;
+			productName = FunnyTextFieldTests;
+			productReference = D8B4AB0019206F8F008C8867 /* FunnyTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B4AAD719206F8F008C8867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.nathan;
+				TargetAttributes = {
+					D8B4AAFF19206F8F008C8867 = {
+						TestTargetID = D8B4AADE19206F8F008C8867;
+					};
+				};
+			};
+			buildConfigurationList = D8B4AADA19206F8F008C8867 /* Build configuration list for PBXProject "FunnyTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8B4AAD619206F8F008C8867;
+			productRefGroup = D8B4AAE019206F8F008C8867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B4AADE19206F8F008C8867 /* FunnyTextField */,
+				D8B4AAFF19206F8F008C8867 /* FunnyTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8B4AADD19206F8F008C8867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B4AAFB19206F8F008C8867 /* Images.xcassets in Resources */,
+				D8B4AAED19206F8F008C8867 /* InfoPlist.strings in Resources */,
+				D8B4AAF619206F8F008C8867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B4AAFE19206F8F008C8867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B4AB0C19206F8F008C8867 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B4AADB19206F8F008C8867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B4AAF919206F8F008C8867 /* ViewController.m in Sources */,
+				D8B4AAF319206F8F008C8867 /* AppDelegate.m in Sources */,
+				D8B4AAEF19206F8F008C8867 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B4AAFC19206F8F008C8867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B4AB0E19206F8F008C8867 /* FunnyTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8B4AB0619206F8F008C8867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B4AADE19206F8F008C8867 /* FunnyTextField */;
+			targetProxy = D8B4AB0519206F8F008C8867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8B4AAEB19206F8F008C8867 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B4AAEC19206F8F008C8867 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8B4AAF419206F8F008C8867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B4AAF519206F8F008C8867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8B4AB0A19206F8F008C8867 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B4AB0B19206F8F008C8867 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8B4AB0F19206F8F008C8867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8B4AB1019206F8F008C8867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8B4AB1219206F8F008C8867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunnyTextField/FunnyTextField-Prefix.pch";
+				INFOPLIST_FILE = "FunnyTextField/FunnyTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8B4AB1319206F8F008C8867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunnyTextField/FunnyTextField-Prefix.pch";
+				INFOPLIST_FILE = "FunnyTextField/FunnyTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8B4AB1519206F8F008C8867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunnyTextField.app/FunnyTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunnyTextField/FunnyTextField-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FunnyTextFieldTests/FunnyTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D8B4AB1619206F8F008C8867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunnyTextField.app/FunnyTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunnyTextField/FunnyTextField-Prefix.pch";
+				INFOPLIST_FILE = "FunnyTextFieldTests/FunnyTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B4AADA19206F8F008C8867 /* Build configuration list for PBXProject "FunnyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B4AB0F19206F8F008C8867 /* Debug */,
+				D8B4AB1019206F8F008C8867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B4AB1119206F8F008C8867 /* Build configuration list for PBXNativeTarget "FunnyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B4AB1219206F8F008C8867 /* Debug */,
+				D8B4AB1319206F8F008C8867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8B4AB1419206F8F008C8867 /* Build configuration list for PBXNativeTarget "FunnyTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B4AB1519206F8F008C8867 /* Debug */,
+				D8B4AB1619206F8F008C8867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B4AAD719206F8F008C8867 /* Project object */;
+}
