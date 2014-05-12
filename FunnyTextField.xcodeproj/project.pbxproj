@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D86134EB192072CE006D6150 /* SZMFunnyTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86134EA192072CE006D6150 /* SZMFunnyTextFieldViewController.m */; };
 		D8B4AAE319206F8F008C8867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE219206F8F008C8867 /* Foundation.framework */; };
 		D8B4AAE519206F8F008C8867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE419206F8F008C8867 /* CoreGraphics.framework */; };
 		D8B4AAE719206F8F008C8867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B4AAE619206F8F008C8867 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D86134E9192072CE006D6150 /* SZMFunnyTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZMFunnyTextFieldViewController.h; path = ../SZMFunnyTextFieldViewController.h; sourceTree = "<group>"; };
+		D86134EA192072CE006D6150 /* SZMFunnyTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZMFunnyTextFieldViewController.m; path = ../SZMFunnyTextFieldViewController.m; sourceTree = "<group>"; };
 		D8B4AADF19206F8F008C8867 /* FunnyTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B4AAE219206F8F008C8867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8B4AAE419206F8F008C8867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				D8B4AAF419206F8F008C8867 /* Main.storyboard */,
 				D8B4AAF719206F8F008C8867 /* ViewController.h */,
 				D8B4AAF819206F8F008C8867 /* ViewController.m */,
+				D86134E9192072CE006D6150 /* SZMFunnyTextFieldViewController.h */,
+				D86134EA192072CE006D6150 /* SZMFunnyTextFieldViewController.m */,
 				D8B4AAFA19206F8F008C8867 /* Images.xcassets */,
 				D8B4AAE919206F8F008C8867 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				D8B4AAF919206F8F008C8867 /* ViewController.m in Sources */,
 				D8B4AAF319206F8F008C8867 /* AppDelegate.m in Sources */,
+				D86134EB192072CE006D6150 /* SZMFunnyTextFieldViewController.m in Sources */,
 				D8B4AAEF19206F8F008C8867 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				D8B4AB1319206F8F008C8867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8B4AB1419206F8F008C8867 /* Build configuration list for PBXNativeTarget "FunnyTextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				D8B4AB1619206F8F008C8867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
