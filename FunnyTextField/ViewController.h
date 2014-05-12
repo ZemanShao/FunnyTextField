@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SZMFunnyTextFieldViewController.h"
 
 @interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
-@property (strong, nonatomic) IBOutlet UITextField *textField;
-
+//@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+//@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) SZMFunnyTextFieldViewController *funnyTextField;
 @end
