@@ -30,12 +30,10 @@
     
 }
 - (IBAction)textFieldDidEndEdit:(id)sender {
-    [UIView animateWithDuration:0.3 animations:^{
-        [self.titleLabel setFrame:CGRectMake(self.titleLabel.frame.origin.x+8, self.titleLabel.frame.origin.y+25, self.titleLabel.frame.size.width, self.titleLabel.frame.size.height)];
-        [self.titleLabel setTextColor:[UIColor colorWithRed:(float)182/256 green:(float)182/256 blue:(float)182/256 alpha:1.0]];
-        [self.titleLabel setFont:[UIFont systemFontOfSize:17
-                                  ]];
-    }];
+    [self.titleLabel setFrame:CGRectMake(self.titleLabel.frame.origin.x+8, self.titleLabel.frame.origin.y+25, self.titleLabel.frame.size.width, self.titleLabel.frame.size.height)];
+    [self.titleLabel setTextColor:[UIColor colorWithRed:(float)182/256 green:(float)182/256 blue:(float)182/256 alpha:1.0]];
+    [self.titleLabel setFont:[UIFont systemFontOfSize:17
+                              ]];
 }
 
 - (IBAction)viewTouched:(id)sender {
