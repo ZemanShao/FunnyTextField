@@ -27,6 +27,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    self.view.layer.borderWidth = 0.5;
+//    self.view.layer.borderColor = [[UIColor colorWithRed:(float)182/256 green:(float)182/256 blue:(float)182/256 alpha:1.0]CGColor];
+    
     self.textField = [[UITextField alloc]initWithFrame:CGRectMake(0, 21, 155, 30)];
     [self.view addSubview:self.textField];
     self.titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 25, 85, 21)];
