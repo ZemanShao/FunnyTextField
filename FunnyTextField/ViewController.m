@@ -31,6 +31,12 @@
             [self.titleLabel setFont:[UIFont systemFontOfSize:10]];
         }];
     }
+    else{
+        [UIView animateWithDuration:0.3 animations:^{
+            [self.titleLabel setTextColor:[UIColor colorWithRed:(float)3/256 green:(float)121/256 blue:(float)255/256 alpha:1.0]];
+        }];
+    }
+
 }
 - (IBAction)textFieldDidEndEdit:(id)sender {
     if ([self.textField.text isEqualToString:@""]) {
@@ -38,6 +44,11 @@
         [self.titleLabel setTextColor:[UIColor colorWithRed:(float)182/256 green:(float)182/256 blue:(float)182/256 alpha:1.0]];
         [self.titleLabel setFont:[UIFont systemFontOfSize:17
                                   ]];
+    }
+    else{
+        [UIView animateWithDuration:0.3 animations:^{
+            [self.titleLabel setTextColor:[UIColor colorWithRed:(float)182/256 green:(float)182/256 blue:(float)182/256 alpha:1.0]];
+        }];
     }
 
 }
